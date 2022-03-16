@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.navigation,
+.hero,
+.footer {
+  padding: 0 calc(100vw / 8);
+  width: 100%;
+}
+
+.navigation,
+.hero,
+.footer {
+  background-color: #1f2937;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #f9faf8;
+  height: 60px;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.item {
+  list-style: none;
+}
+
+.hero {
+  height: 50vh;
+  display: flex;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #f9faf8;
+}
+
+.col1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 50px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.btn {
+  padding: 5px 30px;
+  border-radius: 5px;
+}
+
+.btn-hero {
+  margin-top: 10px;
+  border: 1px solid #3882f6;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.col2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  background-color: #88898a;
+}
+
+.white {
+  padding: 0 calc(100vw / 6);
+  background-color: #f9faf8;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  padding-bottom: 50px;
+}
+
+.subtext {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  height: 100%;
+  position: relative;
+}
+.border-blue {
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+  width: 100%;
+  height: 245px;
+}
+.para-section {
+  text-align: center;
+}
+
+.grey {
+  background-color: #e5e7eb;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding: 100px calc(100vw / 5);
+}
+
+figure .para-section {
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 300;
+  text-align: left;
+}
+
+figure figcaption {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.white-blue {
+  padding: 80px calc(100vw / 6);
+}
+
+.container-cta {
+  background-color: #3882f6;
+  width: 100%;
+  padding: 50px 60px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  color: #f9faf8;
+}
+.bold {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.btn-signup {
+  margin-top: 10px;
+  border: 1px solid #f9faf8;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.footer {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f9faf8;
+}
